@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap&subset=cyrillic');
+
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+}
+
+
+.form-wrapper {
+    margin: 31px auto;
+    height: 392px;
+    width: 481px;
+    background: #f7f5f9;
+    border-radius: 12px;
+    position: relative;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.25);
+    border: 1px solid transparent;
+}
+
+.vopros {
+    position: absolute;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 20px;
+    color: #3B3D43;
+    margin: 40px 0 0 40px;
+    width: 168px;
+    height: 20px;
+}
+
+.fio {
+    position: absolute;
+    top: 85px;
+    }
+
+.form-input {
+    height: 48px;
+    width: 401px;
+    margin-left: 40px;
+    margin-bottom: 25px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 20px;
+    color: #585a5f;
+    padding: 14px 35px 14px 15px;
+    background: #ffffff;
+    box-shadow: 0px 7px 64px rgba(0, 0, 0, 0.07);
+    border-radius: 6px;
+   /* box-sizing: border-box;
+    border: none;*/
+    border: 1px solid transparent;
+    transition: border 0.2s ease-in;
+}
+
+.tel {
+    position: absolute;
+    top: 158px;
+}
+
+.bord {
+    border-radius: 6px;
+    border: 1px solid #854FC8;
+}
+
+.mail {
+    position: absolute;
+    top: 231px;
+}
+
+.zapros {
+    position: absolute;
+    top: 304px;
+}
+
+.form-submit {
+    height: 48px;
+    width: 401px;
+    margin-left: 40px;
+    border: none;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 22px;
+    color: #ffffff;
+    background: #6979F8;
+    border-radius: 6px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.form-input:focus {
+    /*border: none;*/
+    /*border-radius: 6px;*/
+}
+
+.form-input:hover {
+    border-radius: 6px;
+    border: 1px solid #6979F8;
+}
+
+.form-wrapper:hover {
+    border: 1px solid #6979F8;
+    border-radius: 12px;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Обратная связь</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <main>
+        <form action="mail.php" method="POST" enctype="multipart/form-data" class="form-wrapper">   
+            <div class="vopros">
+                Задать вопрос
+            </div>
+            <div class="fio">
+                <label for=""></label>
+                <input id="" name="name" type="text" class="form-input" required placeholder="Фамилия Имя Отчество *" title="Разрешено использовать только пробелы и русские буквы"
+        pattern="^[А-Яа-яЁё\s]+$">
+            </div>
+            <div class="tel">
+                <label for=""></label>
+                <input id="" type="tel" class="form-input bord" name="phone" pattern="[+]7\s[\(]\d{3}[\)]\s\d{3}[\-]\d{2}[\-]\d{2}"  title="Используйте формат: +7 (777) 777-77-77" required placeholder="Телефон *" autofocus>
+            </div>
+            <div class="mail">
+                <label for=""></label>
+                <input id="" type="email" class="form-input" name="email" placeholder="Email">
+            </div>
+            <div class="zapros">
+                <input class="form-submit" type="submit" id="submitFF" value="Отправить запрос" style="text-align: center;">
+            </div>
+        </form>
+    </main>
+</body>
+
+</html>
